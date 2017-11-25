@@ -25,6 +25,14 @@ namespace Utopia1.Models
 
         }
 
+        internal IEnumerable<Room> GetRooms()
+        {
+            using (var context = new UtopiaContext())
+            {
+                return context.Rooms.ToList();
+            }
+        }
+
         public Room CheckInSingle(byte fullDay)
         {
             // TOOD: fullDay is not used at the moment

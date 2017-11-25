@@ -175,6 +175,7 @@
     <Compile Include="Controllers\CheckInController.cs" />
     <Compile Include="Controllers\CheckOutController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
+    <Compile Include="Controllers\RoomsController.cs" />
     <Compile Include="Models\Constants.cs" />
     <Compile Include="Models\Group.cs" />
     <Compile Include="Controllers\GroupsController.cs" />
